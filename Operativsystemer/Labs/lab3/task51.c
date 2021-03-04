@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int i = 1;
+    while (i < 11) {
+        printf("%d", i);
+        i++;
+    }
+
+    printf("\n");
+
+    while (i < 21) {
+        printf("%d", i);
+        i++;
+    }
+
+    printf("\n");
+}

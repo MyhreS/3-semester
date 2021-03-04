@@ -1,0 +1,21 @@
+int a, b;
+
+void foo() {
+    int a, b;
+    int c;
+    a = 1;
+    b = 1000;
+    c = 10;
+
+    printf("a = %d, b = %d, c = %d \n", a, b, c);
+}
+
+void main() {
+    int c;
+    a = 2;
+    b = 2000;
+    c = 20;
+
+    foo();
+    printf("a = %d, b = %d, c = %d \n", a, b, c);
+}
